@@ -10,8 +10,9 @@ export function Hero() {
                 <div className="hero-text">
 
                     <h1>
-                        Realizando projetos que cumprem <br id="bp-desktop-1"/> 
-                        seus objetivos estratégicos.
+                        Realizando projetos <br className='bp-mobile-hero'/>
+                        que cumprem <br className='bp-desktop-hero'/> seus <br className='bp-mobile-hero'/>
+                        objetivos estratégicos. <br className='bp-mobile-hero'/>
                     </h1>
 
                     <div className="btn-container">
