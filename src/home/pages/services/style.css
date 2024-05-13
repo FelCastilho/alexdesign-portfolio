@@ -1,0 +1,10 @@
+.services{
+    background: url('./bg-services.svg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60vh; 
+    position: relative;
+}

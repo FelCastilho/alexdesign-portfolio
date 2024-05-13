@@ -11,8 +11,10 @@ export function About() {
 
                 <div className="hero-about-text">
 
-                    <h1>Sobre mim</h1>
-                    <hr />
+                    <div className="about-title">
+                        <h1>SOBRE MIM</h1>
+                        <hr />
+                    </div>
 
                     <p>
                     Me chamo Alexandre, tenho 22 anos, <br />

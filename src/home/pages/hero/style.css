@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    height: calc(100vh - 15vh); 
+    height: 80vh; 
 }
 
 .hero-container{
