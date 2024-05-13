@@ -1,10 +1,9 @@
-.services{
-    height: 70vh;
-    background: url('./bg-services.svg');
+.projects{
+    background: #000;
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    height: 100vh; 
 }

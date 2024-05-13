@@ -28,18 +28,15 @@
 .about p{
     font-size: 1.3rem;
     margin-bottom: 20px;
-    background-color: green;
 }
 
 .container-about{
     display: flex;
     padding: 0.1rem 2rem;
     width: 1300px;
-    background-color: gray;
 }
 
 .image-about{
-    background-color: blue;
     position: absolute;
     bottom: 0%;
     right: 10%;
@@ -77,7 +74,6 @@
     .about p{
         font-size: 1rem;
         margin-bottom: 20px;
-        background-color: green;
     }
     
     .container-about{

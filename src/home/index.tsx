@@ -4,6 +4,7 @@ import { Header } from '../components/header/header';
 import { Hero } from './pages/hero/hero';
 import { About } from './pages/about';
 import { Services } from './pages/services';
+import { Projects } from './pages/projects';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Hero/>
       <About/>
       <Services/>
+      <Projects/>
     </>
   );
 }
