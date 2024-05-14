@@ -1,0 +1,124 @@
+.clave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px 0;
+}
+
+.logo-alex {
+    margin-bottom: 50px;
+}
+
+.clave-container {
+    height: 100%;
+    max-width: 1100px;
+}
+
+.clave-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    font-size: 1.3rem;
+}
+
+.clave-container img {
+    max-width: 1100px;
+}
+
+.clave-logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.clave-logo-apresentation1,
+.clave-logo-apresentation2 {
+    display: flex;
+}
+
+.clave-logo-apresentation1 img {
+    width: 550px;
+}
+
+.clave-logo-apresentation2 img {
+    width: 550px;
+    margin-bottom: 4px;
+}
+
+.clave-pattern-apresentation {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+    height: 50vh;
+}
+
+.pattern1 {
+    background: url('./images/7.svg');
+    background-size: cover;
+    width: 50%;
+}
+
+.pattern2 {
+    background: url('./images/8.svg');
+    background-size: cover;
+    width: 50%;
+}
+
+.clave-mockup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+    .clave-container {
+        height: 100%;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .clave-container-text {
+        font-size: 1rem;
+    }    
+
+    .clave-container img {
+        max-width: 100%;
+    }
+
+    .clave-logo-apresentation1,
+    .clave-logo-apresentation2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clave-pattern-apresentation {
+        display: flex;
+    }
+
+    .clave-pattern-apresentation {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 4px;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .pattern1 {
+        background: url('./images/7.svg');
+        background-size: cover;
+        width: 100%;
+    }
+
+    .pattern2 {
+        background: url('./images/8.svg');
+        background-size: cover;
+        width: 100%;
+    }
+}
