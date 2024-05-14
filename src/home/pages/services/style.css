@@ -49,9 +49,18 @@ hr{
 @media screen and (max-width: 768px){
     .services{
         height: 70vh;
-        background: none;
-        background-color: #0F1B33;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0;
     }
+
+    .services-container{
+        width: 90%;
+    }
+
 }
 
 
