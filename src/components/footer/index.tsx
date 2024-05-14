@@ -14,7 +14,7 @@ export function Footer() {
                 <div className='contact-footer'>
 
                     <div className="footer-icons">
-                            <Link to="https://www.instagram.com/alexoliveira_m/" target='_blank'>
+                            <Link to="https://www.instagram.com/alex.dsgn_/" target='_blank'>
                                 <FaInstagram size={20}/>
                             </Link>
 

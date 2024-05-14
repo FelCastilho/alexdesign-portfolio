@@ -22,9 +22,7 @@ export function Contact() {
 
                 </div>
 
-                <div className="img-contact">
-                    <img src={image} alt="Foto de perfil" />
-                </div>
+                <img src={image} alt="Foto de perfil" />
 
             </div>
 

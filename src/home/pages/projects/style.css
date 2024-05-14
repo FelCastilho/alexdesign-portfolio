@@ -85,7 +85,11 @@
     }
     
     .container-image-projects img{
-        width: 50%;
+        width: 70%;
+    }
+
+    .container-image-projects img:hover {
+        transform: none; 
     }
     
 }
