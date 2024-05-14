@@ -23,17 +23,17 @@ export function Services() {
 
                     <div className="services-itens">
                         <div className='service'>
-                            <FaPenNib color={iconColor} />
+                            <FaPenNib size={25} color={iconColor} className='service-icon'/>
                             Design de Identidade Visual
                         </div>
 
                         <div className='service'>
-                            <CiPen color={iconColor} />
+                            <CiPen size={30} color={iconColor} className='service-icon'/>
                             Design para redes sociais
                         </div>
 
                         <div className='service'>
-                            <FaCirclePlay color={iconColor} />
+                            <FaCirclePlay size={25} color={iconColor} className='service-icon'/>
                             Edição de vídeo
                         </div>
                     </div>

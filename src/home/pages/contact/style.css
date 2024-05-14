@@ -44,6 +44,7 @@
     border: 2px solid #4773FC;
 }
 @media screen and (max-width: 768px){
+    
     .contact{
         height: 100%;
         padding-top: 100px;
@@ -52,12 +53,12 @@
     
     .container-contact{
         height: 100%;
-        width: 90%;
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
         padding: 25px;
+        width: 95%;
     }
 
     .img-contact img{
@@ -77,5 +78,10 @@
         border-radius: 10px;
         font-weight: bold;
         transition: 0.2s all ease-in-out;
+    }
+
+    .text-contact h1{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
     }
 }
