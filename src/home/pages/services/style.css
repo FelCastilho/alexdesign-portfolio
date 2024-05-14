@@ -46,4 +46,12 @@ hr{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 768px){
+    .services{
+        height: 70vh;
+        background: none;
+        background-color: #0F1B33;
+    }
+}
+
 
