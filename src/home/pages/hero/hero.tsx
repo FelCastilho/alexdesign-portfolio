@@ -16,7 +16,7 @@ export function Hero() {
                     </h1>
 
                     <div className="btn-container">
-                        <Link to="#" id='btn-projetos'>Projetos</Link>
+                        <Link to="#projetos" id='btn-projetos'>Projetos</Link>
                         <Link to="#" id='btn-contact'>Entre em contato</Link>
                     </div>
 

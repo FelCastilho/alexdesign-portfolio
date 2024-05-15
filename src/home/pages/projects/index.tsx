@@ -3,13 +3,14 @@ import './style.css'
 
 import orbis from '../../../assets/orbis.svg';
 import clave from '../../../assets/clave.svg';
+import plexo from '../../../assets/plexo.svg';
 
 import { Link } from 'react-router-dom';
 
 export function Projects() {
 
     return (
-        <section className="projects">
+        <section className="projects" id='projetos'>
 
             <div className="container-projects">
 
@@ -21,10 +22,16 @@ export function Projects() {
                 <div className="container-image-projects">
 
 
-                    <img src={orbis} alt="Imagem projeto orbis" />
+                    <Link to="#">
+                        <img src={orbis} alt="Imagem projeto orbis" />
+                    </Link>
 
-                    <Link to="/clave">
+                    <Link to="/clave" target='_blank'>
                         <img src={clave} alt="Imagem projeto clave" />
+                    </Link>
+
+                    <Link to="/plexo" target='_blank'>
+                        <img src={plexo} alt="Imagem projeto clave" />
                     </Link>
 
                 </div>

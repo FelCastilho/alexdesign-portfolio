@@ -1,7 +1,9 @@
 import './style.css';
 
+import { Link } from 'react-router-dom';
+
 import capa from './images/1.svg';
-import palete from './images/2.svg';
+import paleta from './images/2.svg';
 
 import logo1 from './images/3.svg';
 import logo2 from './images/4.svg';
@@ -23,7 +25,10 @@ export function Clave() {
   return (
     <section className='clave'>
 
-      <img src={logo} alt="Logo de Alex" className='logo-alex'/>
+      <Link to="/">
+        <img src={logo} alt="Logo de Alex" className='logo-alex' />
+      </Link>
+
 
       <div className="clave-container">
 
@@ -42,7 +47,7 @@ export function Clave() {
 
         </div>
 
-        <img src={palete} alt="Capa do projeto Clave" />
+        <img src={paleta} alt="Capa do projeto Clave" />
 
         <div className="clave-logo-container">
           <div className='clave-logo-apresentation1'>
