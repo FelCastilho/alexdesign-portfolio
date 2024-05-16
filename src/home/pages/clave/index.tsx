@@ -52,14 +52,24 @@ export function Clave() {
         </div>
 
         <div className="clave-mockup-container">
+
           <img src="https://lh3.googleusercontent.com/pw/AP1GczOlV1dkVZ9FAHMI8aaReGFaRH41PzdzQcIHT7SEzNBJfMtom5H0fd0e44WSsdS3mZzdLWgUa33PV9LCn-lWevXvMv_pWxkrz8DbK7xLHCjSlVs6M2RIKg0-HTjzRznHja3xFGwbvcp5V90QROfT4-A=w1314-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
+
           <img src="https://lh3.googleusercontent.com/pw/AP1GczMh_Rq8ohBOGOiYhLYiR-eyCR9yzXBA0nb5ykULlsfIIuR2Op3IjgtfYHRMlVZWzyDmfdZ-7gwd4Jb4RavEakSkoX3tCdsC2AamSwRMDZpOVEKrO4LG5pwD6wOriIBbBhIUhaSNd0OipwUKXJ_az4U=w1314-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
+
           <img src="https://lh3.googleusercontent.com/pw/AP1GczMobeP49El9rzD7wQLDuYSAzMaIY6PTDDjeXYwa0BY28DehZFciqy8qc4LRZc4v5RWcwe25bGiVkon_8wA7vv4x4Xbi7CaDLNB7mzebxo2evmdkwqd7PzupiaVkgnZphoDnuQ3MwAjO26ndZ5LggSA=w1314-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
+
           <img src="https://lh3.googleusercontent.com/pw/AP1GczN_xBrPdxwPlU6scBNLKyGDzTk9oisNgQ3WdUu6cXhco_Bua_zh9cCgeopSI-KUCOCUSfvXiuF75fcuARPziXTWMVlc9D_pShQuFsRsD354ZEjzQJeM41G7RwKVyjyLbNenrBqr92U8DKNnuE4Ck6o=w1314-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
-          <img src="https://photos.google.com/u/3/share/AF1QipO233IA1DZ-WZbPi47OOabxjANFEjdiLMzGG0D6cW6vfqz36_TdX4F9BgXfxmtVUQ/photo/AF1QipNoOHNFx98i20SSsoM_-rkNqEz0CvP5q9tzXIhg?key=WFNXU2Fja3NqclgwWVhENE9FelhvVnU2dFV6N0ln"alt="Capa do projeto Clave" />
-          <img src="https://lh3.googleusercontent.com/pw/AP1GczPKxUSXqo_Y5b6_4s9XKDFmVIDDk7vcNBzIBYXSq2QvuN7-T5rwDJXwEv78Q2lIqFTSuTEq1QZwsIza5X-6Ksqi9cuucc4bMuPCrHnrp3tKLDGIOA3OJJKd6ymxWFa0_P9loOWUGC6iH9p2peN0tU4=w1314-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
-          <img src="https://photos.google.com/u/3/share/AF1QipO233IA1DZ-WZbPi47OOabxjANFEjdiLMzGG0D6cW6vfqz36_TdX4F9BgXfxmtVUQ/photo/AF1QipO0XmNSEQGXfG54TLsMz8DXuoIYOs25u5N6lEp-?key=WFNXU2Fja3NqclgwWVhENE9FelhvVnU2dFV6N0ln" alt="Capa do projeto Clave" />
-          <img src="https://lh3.googleusercontent.com/pw/AP1GczPnnYZpF6Fy7Ye-iciAoX-rheig5wTXKoiJR4rykAn8s4UdFAVMw5oZ5gzKaW9qug5RICDjMXsjvndO6J0MUCxPa6nKD1wTz9GQrpzNz19GsrQybucHmEGCb0DbgUKDfL2RWFyVjAK0XCJ9O7RbOCI=w1440-h406-s-no-gm?authuser=3" alt="Capa do projeto Clave" />
+
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczMkWF9S3jiE9Y5nVmXAnT9DX3P9_RU7_rkFblmo2zUSJehG-A3Ujbnc8w0L77UcXDiP9PY9RYGkKrZwSB4grekdS-oqG0jIaeHavTT8xJ_g6Ekw9tSFcpBF1R5-4wq3OwTTfDoa-XFR8reQsqxe0yk=w1314-h739-s-no-gm?authuser=3" alt="Bolsas personalizadas" />
+
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczPKxUSXqo_Y5b6_4s9XKDFmVIDDk7vcNBzIBYXSq2QvuN7-T5rwDJXwEv78Q2lIqFTSuTEq1QZwsIza5X-6Ksqi9cuucc4bMuPCrHnrp3tKLDGIOA3OJJKd6ymxWFa0_P9loOWUGC6iH9p2peN0tU4=w1314-h739-s-no-gm?authuser=3" alt="Avental personalizado" />
+
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczPc8BuYXU63PLtfjITLa4BfhINZhkjiq57UeYpsK1jSjdcmzkN7b6ocv1epTVnoJdQIBk-znocHtWkgXh9bYmqBmbwnixAIp_dybu8zNxKsgtrqLAIOQMiQqAcbQqttgAHB0AlQeNg-yy9ZdtSq_zw=w1314-h739-s-no-gm?authuser=3" alt="Placa do projeto clave" />
+
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczPnnYZpF6Fy7Ye-iciAoX-rheig5wTXKoiJR4rykAn8s4UdFAVMw5oZ5gzKaW9qug5RICDjMXsjvndO6J0MUCxPa6nKD1wTz9GQrpzNz19GsrQybucHmEGCb0DbgUKDfL2RWFyVjAK0XCJ9O7RbOCI=w1440-h406-s-no-gm?authuser=3" alt="Obrigado!" />
+          
+
         </div>
       </div>
 
