@@ -16,6 +16,10 @@
     gap: 50px;
 }
 
+.container-image-projects a{
+    width: 80%;
+}
+
 .container-title{
     display: inline-flex;
     flex-direction: column;
@@ -32,11 +36,14 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
+    width: 90%;
 }
 
 .container-image-projects img{
     width: 100%;
     cursor: pointer;
+    display: block;
+    margin: auto;
     transition: 0.3s all ease;
 }
 
@@ -86,6 +93,8 @@
     
     .container-image-projects img{
         width: 70%;
+        display: block;
+        margin: auto;
     }
 
     .container-image-projects img:hover {
