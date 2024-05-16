@@ -2,23 +2,6 @@ import './style.css';
 
 import { Link } from 'react-router-dom';
 
-import capa from './images/1.svg';
-import paleta from './images/2.svg';
-
-import logo1 from './images/3.svg';
-import logo2 from './images/4.svg';
-import logo3 from './images/5.svg';
-import logo4 from './images/6.svg';
-
-import tipografia from './images/9.svg';
-import businessCard from './images/10.svg';
-import businessCard2 from './images/11.svg';
-import adesivo from './images/12.svg';
-import sacola from './images/13.svg';
-import avental from './images/14.svg';
-import placa from './images/15.svg';
-import obrigado from './images/16.svg';
-
 import logo from '../../../assets/logo - header.svg'
 
 export function Clave() {
