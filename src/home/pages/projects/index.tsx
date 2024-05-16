@@ -33,6 +33,24 @@ export function Projects() {
                     </Link>
 
                 </div>
+
+                <div className="container-image-projects">
+
+
+                    <Link to="/critica" target='_blank'>
+                        <img src="https://lh3.googleusercontent.com/pw/AP1GczMwOElYy_9IfGmBfoOgnjC79ZxD7UyWLCXWZcPGh0MmCoDji9oucjLRA2SZ2CNzSc4AMjn9uYzkgvaSe9k9oWZbMCphWG4D-E6xomR7I_elFwKRTJOModB3Gs-AugVbItz4MdPHMT67dGQtjaJa7Ylp=w378-h378-s-no-gm?authuser=3" alt="Imagem projeto orbis" />
+                    </Link>
+
+                    <Link to="/evento" target='_blank'>
+                        <img src="https://lh3.googleusercontent.com/pw/AP1GczMD0u8guG7nVYUZTAiZNMjWQ4-xDWC4Z16sSWvvurBOXlCEBdn0qJ9mpNWy7Cd-HejfS2uOn03f5_dnGGuuWiYqmVpfsQqAeaZOydaa8MeYcmVKbh4baAIP73nImfZGeIOXmWiy2w5HdXbMEtOVC8_t=w378-h378-s-no-gm?authuser=3" alt="Imagem projeto clave" />
+                    </Link>
+
+                    <Link to="/entrevista" target='_blank'>
+                        <img src="https://lh3.googleusercontent.com/pw/AP1GczPWCtFtEIQfHOENj8G26oR7EnHawCQupCCQQ4ap28I19Q1883DvCZCRSdALX1udaJ4wDKL4fTEGFCgjF3pwiwSBtZmBZHeDKEhuDmeAeUruFMo5HMmCX1s9nBRjszpxA-_QOwGXEO9yvsMScnEyjiE_=w378-h378-s-no-gm?authuser=3" alt="Imagem projeto clave" />
+                    </Link>
+
+                </div>
+                
             </div>
 
         </section>

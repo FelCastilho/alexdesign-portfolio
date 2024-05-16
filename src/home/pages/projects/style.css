@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh; 
+    height: 100%; 
+    padding: 100px 0;
 }
 
 .container-projects{
@@ -36,7 +37,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    width: 90%;
+    width: 70%;
 }
 
 .container-image-projects img{
@@ -44,12 +45,12 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    transition: 0.3s all ease;
+    transition: 0.8s all ease;
     border-radius: 20px;
 }
 
 .container-image-projects img:hover {
-    transform: scale(1.1); 
+    filter: grayscale(100%);
 }
 
 @media screen and (max-width: 768px){
@@ -90,6 +91,7 @@
         justify-content: center;
         flex-direction: column;
         gap: 50px;
+        width: 90%;
     }
     
     .container-image-projects img{
