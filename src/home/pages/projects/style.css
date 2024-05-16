@@ -45,6 +45,7 @@
     display: block;
     margin: auto;
     transition: 0.3s all ease;
+    border-radius: 20px;
 }
 
 .container-image-projects img:hover {
