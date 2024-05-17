@@ -8,7 +8,7 @@ export function Clave() {
   return (
     <section className='clave'>
 
-      <Link to="/">
+      <Link to="/" className='logo-alex-link'>
         <img src={logo} alt="Logo de Alex" className='logo-alex' />
       </Link>
 

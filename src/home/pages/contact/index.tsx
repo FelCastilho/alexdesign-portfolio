@@ -1,5 +1,6 @@
 import './style.css'
 import image from '../../../assets/img - help.png';
+import { Link } from 'react-router-dom';
 
 export function Contact() {
     return (
@@ -18,7 +19,7 @@ export function Contact() {
                         em realidade! <br />
                     </p>
                     
-                    <a href="#">Agendar call</a>
+                    <a href="/agendar">Agendar call</a>
 
                 </div>
 

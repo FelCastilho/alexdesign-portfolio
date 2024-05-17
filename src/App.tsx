@@ -9,6 +9,7 @@ import { Plexo } from './home/pages/plexo';
 import { Critica } from './home/pages/critica';
 import { Entrevista } from './home/pages/entrevista';
 import { Evento } from './home/pages/evento/evento';
+import { Calendar } from './calendar';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: '/entrevista',
     element: <Entrevista/>
+  },
+  {
+    path: '/agendar',
+    element: <Calendar/>
   },
 ])
 
