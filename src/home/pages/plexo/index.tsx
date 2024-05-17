@@ -8,6 +8,10 @@ export function Plexo() {
     return (
         <section className='plexo'>
 
+            <Link to="/">
+                <img src={logo} alt="Logo de Alex" className='logo-alex' />
+            </Link>
+
             <div className="plexo-container">
 
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczM5bdMDckfZem570nO4d6u9eL8AxnADNuKdiHEjydSCwtoFcae5k2YarucfUAjT0W6xMeOm0RqWcQ_ZUSflWiol5RhhowMdeN_isnB5pskr-ezPPMXB0f_fDRrSXQYgvCyOoJnajSN0Ggvst8HMh94=w1313-h739-s-no-gm?authuser=3" alt="Capa do projeto Plexo" />

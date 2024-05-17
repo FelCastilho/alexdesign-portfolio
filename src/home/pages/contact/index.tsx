@@ -1,6 +1,5 @@
 import './style.css'
 import image from '../../../assets/img - help.png';
-import { Link } from 'react-router-dom';
 
 export function Contact() {
     return (
