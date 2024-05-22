@@ -10,6 +10,7 @@ import { Critica } from './home/pages/critica';
 import { Entrevista } from './home/pages/entrevista';
 import { Evento } from './home/pages/evento/evento';
 import { Calendar } from './calendar';
+import { Orbis } from './home/pages/orbis';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/plexo',
     element: <Plexo/>
+  },
+  {
+    path: '/orbis',
+    element: <Orbis/>
   },
   {
     path: '/critica',
