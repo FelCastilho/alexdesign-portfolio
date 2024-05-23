@@ -1,5 +1,4 @@
 import './style.css'
-import image from '../../../assets/img - help.png';
 
 export function Contact() {
     return (
@@ -9,20 +8,22 @@ export function Contact() {
 
                 <div className="text-contact">
 
-                    <h1>Precisa de um projeto?</h1>
+                    <div className="contact-title">
+                        <h1>Vamos marcar <br /> nossa conversa</h1>
+                        <hr></hr>
+                    </div>
 
                     <p>
-                        <strong>Agende uma conversa comigo.</strong> <br />
-                        Vamos alinhar todos os pontos <br />
-                        e transformar as suas ideias <br />
-                        em realidade! <br />
+                        Preencha o formulário ao lado para <br />
+                        que possamos agendar um horário <br />
+                        e falarmos sobre o seu projeto.
                     </p>
-                    
-                    <a href="/agendar">Agendar call</a>
 
                 </div>
 
-                <img src={image} alt="Foto de perfil" />
+                <form action="">
+
+                </form>
 
             </div>
 
