@@ -17,8 +17,7 @@ export function Projects() {
 
                 <div className="container-image-projects">
 
-
-                    <Link to="/orbis">
+                    <Link to="/orbis" target='_blank'>
                         <img src="https://lh3.googleusercontent.com/pw/AP1GczPVZpQlalTiY0E3DOLtR-CnO4-3m7VuTMrKR7KlnUmfSzVA6R-nSwCGqsnoAO2kFtxsFsth95YTvsR9tly9alz4tFu0c_hNqnFIjOgcC4mhWBY6iYcxu9qxgIEahuEXcBsgLeJJeJiDNeNdgs1U_3Ny=w739-h739-s-no-gm?authuser=3" alt="Capa do projeto orbis" />
                     </Link>
 
