@@ -1,11 +1,10 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import Logo from '../../assets/logo - header.svg';
 
 export function Header() {
 
-  const ref = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {

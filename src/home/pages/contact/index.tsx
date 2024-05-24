@@ -22,7 +22,7 @@ export function Contact() {
                 </div>
 
                 <form action="">
-
+                    
                 </form>
 
             </div>
