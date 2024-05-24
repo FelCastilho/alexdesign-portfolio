@@ -3,14 +3,15 @@ import { createBrowserRouter } from "react-router-dom";
 
 import Home from './home';
 import Mentorias from './mentorias';
+
 import { Clave } from './home/pages/clave';
 import { Plexo } from './home/pages/plexo';
+import { Orbis } from './home/pages/orbis';
 
 import { Critica } from './home/pages/critica';
 import { Entrevista } from './home/pages/entrevista';
 import { Evento } from './home/pages/evento/evento';
 import { Calendar } from './calendar';
-import { Orbis } from './home/pages/orbis';
 
 const router = createBrowserRouter([
   {
@@ -51,5 +52,5 @@ const router = createBrowserRouter([
   },
 ])
 
-export {router};
+export { router };
 

@@ -9,9 +9,10 @@ import { Contact } from './pages/contact';
 import { Footer } from '../components/footer';
 
 function Home() {
+
   return (
     <>
-      <Header />
+      <Header/>
       <Hero/>
       <About/>
       <Services/>

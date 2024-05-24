@@ -1,23 +1,29 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import Logo from '../../assets/logo - header.svg';
 
-export function Header(){
+export function Header() {
 
-  const [ isOpen, setIsOpen ] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   }
 
-  return(
+  const handleClick = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  return (
     <header>
       <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-        
+
         <div className="nav-container">
 
-          <img src={Logo} className="logo-header"/>
+          <img src={Logo} className="logo-header" />
 
           <div className="menu-icon" onClick={toggleNavbar}>
 
@@ -28,10 +34,10 @@ export function Header(){
           </div>
 
           <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-            <li><Link to='/'>Ínicio</Link></li>
-            <li><Link to='#'>Sobre</Link></li>
-            <li><Link to='#'>Contato</Link></li>
-            <li><Link to='/mentorias'>Mentorias</Link></li>
+            <li><Link to="/" onClick={() => handleClick('inicio')}>Ínicio</Link></li>
+            <li><Link to="/" onClick={() => handleClick('sobre')}>Sobre</Link></li>
+            <li><Link to="/" onClick={() => handleClick('contato')}>Contato</Link></li>
+            <li><Link to="/mentorias">Mentorias</Link></li>
           </ul>
 
         </div>

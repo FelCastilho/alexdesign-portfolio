@@ -4,7 +4,7 @@ import fotoPerfil from './alexandre.svg';
 export function About() {
     return (
     
-        <section className="about">
+        <section className="about" id='sobre'>
 
         <div className="container-about">
 
