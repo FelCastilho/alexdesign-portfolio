@@ -10,19 +10,21 @@
 .container-contact{
     background-color: #0B0B0B;
     border-radius: 20px;
-    height: 60vh;
-    width: 60vw;
+    height: 80vh;
+    width: 70vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .contact-title hr{
-    margin-bottom: 20px;  
+    margin-bottom: 10px;  
 }
 
 .text-contact h1{
     font-size: 2.3rem;
+    line-height: 35px;
+    margin-bottom: 10px;  
 }
 
 .text-contact p{
@@ -46,12 +48,101 @@
     background-color: transparent;
     border: 2px solid #4773FC;
 }
+
+.form-contact{
+    width: 40%;
+    max-width: 32rem;
+    font-size: 1rem; 
+}
+
+.form-contact p{
+    text-align: center;
+}
+
+.form-contact label, input, button{
+    display: block;
+    width: 50%;
+    margin: auto;
+
+}
+
+.container-hour{
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.form-contact input, .form-contact select, .form-contact textarea{
+    width: 100%;
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+    border: 2px solid black;
+}
+
+.form-contact textarea{
+    min-height: 13rem;
+    resize: none;
+    display: block;
+    margin: auto;
+}
+
+.form-contact input:hover, .form input:focus, .form-contact textarea:hover, .form textarea:focus{
+    outline: none;
+    border-color: #0A001B;
+    box-shadow: 0 0 0 3px #6300F9 ;
+}
+
+.form-contact button{
+    display: block;
+    margin-top: 20px;
+    padding: 1rem;
+    background: #4773FC;
+    border: 2px solid #4773FC;
+    color: #fff;
+    font-size: inherit;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contact button:hover , .form-contact button:focus{
+    outline: none;
+    background: transparent;
+    color: #4773FC;
+    border: 2px solid #4773FC;
+}
+
 @media screen and (max-width: 768px){
     
     .contact{
         height: 100%;
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .text-contact p{
+        font-size: 1.2em;
+        margin-bottom: 0px;
+    }
+
+    .form-contact{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .container-hour{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 10px;
     }
     
     .container-contact{
@@ -61,14 +152,8 @@
         justify-content: space-around;
         flex-direction: column;
         padding: 25px;
-        gap: 100px;
+        gap: 50px;
         width: 95%;
-    }
-
-    .container-contact img{
-        width: 50%;
-        display: block;
-        margin: auto;
     }
 
     .text-contact a{
@@ -87,6 +172,5 @@
 
     .text-contact h1{
         font-size: 1.8rem;
-        margin-bottom: 20px;
     }
 }
