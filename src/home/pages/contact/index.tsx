@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './style.css';
 import emailjs from '@emailjs/browser';
+import { db } from '../../../services/firebaseConfig';
+import { collection, query, where, getDocs, addDoc } from 'firebase/firestore';
 
 export function Contact() {
     const [name, setName] = useState('');
@@ -12,6 +14,22 @@ export function Contact() {
     const onSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
+            const q = query(collection(db, "content"), where("date", "==", date), where("time", "==", time));
+            const querySnapshot = await getDocs(q);
+
+            if (!querySnapshot.empty) {
+                alert('Este horário já está reservado. Por favor, escolha outro horário.');
+                return;
+            }
+            await addDoc(collection(db, "content"), {
+                name,
+                email,
+                message,
+                date,
+                time
+            });
+
+            // Envia o email
             const templateParams = {
                 from_name: name,
                 message: message,
@@ -22,6 +40,13 @@ export function Contact() {
 
             await emailjs.send("service_qxk5dlm", "template_jyltjnk", templateParams, "D0vBVk6iZpPUUMkzM");
             alert('Mensagem enviada com sucesso!');
+
+            // Limpa os campos do formulário
+            setName('');
+            setEmail('');
+            setMessage('');
+            setDate('');
+            setTime('');
         } catch (err) {
             console.log(err);
             alert('Erro ao enviar a mensagem. Tente novamente.');
@@ -30,7 +55,7 @@ export function Contact() {
 
     const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const selectedDate = new Date(e.target.value);
-        const day = selectedDate.getUTCDay(); // 0 (Sunday) to 6 (Saturday)
+        const day = selectedDate.getUTCDay(); 
 
         if (day === 0) {
             alert('Domingo não é permitido. Por favor, escolha um dia útil.');
