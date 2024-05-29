@@ -59,8 +59,6 @@ export function Plexo() {
 
                     <img src="https://lh3.googleusercontent.com/pw/AP1GczPYIysaNhWB20ZYhqUJSiKO9NQVomBx9aTBXpuG_J02IlGVNc7llUoHY0iq0X6tCo2TPsw9tZ8sZ6eCk5Ik87UCeWfEMLBie_cVMbmSTmsBj5mSgOXmHkRWsB-L5OeMOCVPtRqu9ppXj0cfDfITUvk=w1313-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave"/>
 
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMPxPcAmvuMnWlREuuYwhqkFVAcpHodajnpDnfpDy9j9gFB5L0p8C-bf4ljd46KfXFo-O0OcAwG9j3o5wyvy-3BZG6yTEdR3Lr2AJfPftknPBqFJI7Jq_sFuf3CdSKnNIektvgX22eNc_hZfmMUNoY=w1313-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave"/>
-
                     <img src="https://lh3.googleusercontent.com/pw/AP1GczNuAkaek-NHfnxDMwsiTyYp6MWEnrOlcMywS9AzW6wZ999kVHliTOnqZoBjvpUlRXjAJ65wkynEeQLsJqfYtm3yA4PzGKjOmTot9-iAg4INI5gjSzOUfJel1ejcl1TkmTcZG6Tu8ijnMx02ASjTb2g=w1313-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave"/>
 
                     <img src="https://lh3.googleusercontent.com/pw/AP1GczMCaySEy8pIt-3VLT3fWBL8IsgMJwI72iVbL0BeVzP8KsP6DFKo4hb4B1scURRs3zemMVZNqLGLLbnf8uceEXrhMS9avWN68hinYYsm9FRIqq9Gs95d2pL3jIFb_zNxHi2BY3DB_kq9umE47SHdCmg=w1313-h739-s-no-gm?authuser=3" alt="Capa do projeto Clave"/>
