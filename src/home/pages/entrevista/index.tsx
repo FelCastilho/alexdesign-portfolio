@@ -25,8 +25,6 @@ export function Entrevista() {
                 Voltar
             </Link>
 
-
-
         </section>
 
     )

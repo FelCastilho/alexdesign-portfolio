@@ -70,8 +70,13 @@ export function Contact() {
     };
 
     const generateTimeOptions = () => {
+        const selectedDate = new Date(date);
+        const day = selectedDate.getUTCDay(); 
+
         const options = [];
-        for (let hour = 7; hour < 22; hour++) {
+        const endHour = (day === 6) ? 12 : 22; 
+
+        for (let hour = 7; hour < endHour; hour++) {
             const timeString = `${String(hour).padStart(2, '0')}:00`;
             options.push(timeString);
         }
